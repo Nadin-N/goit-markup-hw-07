@@ -1,0 +1,24 @@
+.logo {
+	font-family: Raleway, Arial, Helvetica, sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
+	color: var(--logo-first-color);
+
+	.header-nav & {
+		padding: 24px 0;
+	}
+	.down & {
+		display: inline-block;
+		margin-bottom: 20px;
+	}
+}
+
+.logo-second-part {
+	.header-nav & {
+		color: var(--logo-second-color);
+	}
+	.down & {
+		color: var(--logo-third-color);
+	}
+}
